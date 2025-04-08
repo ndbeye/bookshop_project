@@ -1,0 +1,47 @@
+# Environnements et fichiers sensibles
+.env
+*.env
+
+# Dossiers temporaires
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+
+# Airflow
+airflow/dags/__pycache__/
+airflow/airflow.db
+airflow/airflow-webserver.pid
+
+# NiFi
+nifi/config/*log
+nifi/logs/
+nifi/database_repository/
+nifi/flowfile_repository/
+nifi/content_repository/
+nifi/provenance_repository/
+
+# Dbt
+dbt_bookshop/target/
+dbt_bookshop/dbt_packages/
+dbt_modules/
+
+# Streamlit
+.streamlit/
+
+# Docker
+*.pid
+docker/volumes/
+
+postgres_data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# GitHub workflows (à garder si tu les utilises)
+!.github/
