@@ -1,0 +1,26 @@
+bookshop:
+  outputs:
+    dev:
+      account: NGHPVGL-HH14778
+      database: BOOKSHOP
+      password: Marling-Prety111085
+      role: ACCOUNTADMIN
+      schema: MARTS
+      threads: 4
+      type: snowflake
+      user: BEYENDIAGA
+      warehouse: DBT_WH
+  target: dev
+bookshop_profile:
+  outputs:
+    dev:
+      account: NGHPVGL-HH14778
+      database: BOOKSHOP
+      password: Marling-Prety111085
+      role: ACCOUNTADMIN
+      schema: MARTS
+      threads: 4
+      type: snowflake
+      user: BEYENDIAGA
+      warehouse: DBT_WH
+  target: dev

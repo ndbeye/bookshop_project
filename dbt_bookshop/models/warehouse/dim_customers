@@ -1,0 +1,13 @@
+{{ 
+  config(
+    materialized='table',
+    alias='dim_customers'
+  ) 
+}}
+
+SELECT
+  customer_id,
+  customer_code,
+  first_name || ' ' || last_name AS full_name,
+  created_at
+FROM {{ ref('stg_customers') }}

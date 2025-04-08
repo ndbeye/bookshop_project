@@ -1,0 +1,244 @@
+[0m20:12:25.063077 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3761EF3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3761EF9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3761C3810>]}
+
+
+============================== 20:12:25.081019 | 64dbcd37-57e0-4ff3-b226-36db8788a7b6 ==============================
+[0m20:12:25.081019 [info ] [MainThread]: Running with dbt=1.9.3
+[0m20:12:25.085370 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\ndiaga.beye\\Desktop\\Cours-MIA-DIT\\MIA2\\Projet_Big_Data\\bookshop_project\\dbt_bookshop\\logs', 'profiles_dir': 'C:\\Users\\ndiaga.beye\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run --models staging.*', 'send_anonymous_usage_stats': 'True'}
+[0m20:12:25.123867 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'bookshop'
+[0m20:12:25.139642 [debug] [MainThread]: Command `dbt run` failed at 20:12:25.137622 after 0.89 seconds
+[0m20:12:25.144049 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A370340250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A376180AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A376180850>]}
+[0m20:12:25.145745 [debug] [MainThread]: Flushing usage events
+[0m20:12:28.352769 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:13:57.984937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017BE39829D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017BE39C5910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017BE39CFF50>]}
+
+
+============================== 20:13:57.995726 | e233a808-f82e-4c9d-9dbe-c70f356f7e66 ==============================
+[0m20:13:57.995726 [info ] [MainThread]: Running with dbt=1.9.3
+[0m20:13:57.998742 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ndiaga.beye\\Desktop\\Cours-MIA-DIT\\MIA2\\Projet_Big_Data\\bookshop_project\\dbt_bookshop', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\ndiaga.beye\\Desktop\\Cours-MIA-DIT\\MIA2\\Projet_Big_Data\\bookshop_project\\dbt_bookshop\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run --models staging.*', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:13:58.147805 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'ACCOUNT'
+[0m20:13:58.150801 [debug] [MainThread]: Command `dbt run` failed at 20:13:58.150801 after 0.43 seconds
+[0m20:13:58.151879 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017BDDB3FC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017BE39FDDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017BE39FD950>]}
+[0m20:13:58.154389 [debug] [MainThread]: Flushing usage events
+[0m20:13:59.168311 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:20:29.892576 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ECF8C0EF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ECF8C0D090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ECF8C0DE90>]}
+
+
+============================== 20:20:29.901083 | 883b2e2c-5547-41f3-a5ec-56038030722e ==============================
+[0m20:20:29.901083 [info ] [MainThread]: Running with dbt=1.9.3
+[0m20:20:29.904650 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ndiaga.beye\\Desktop\\Cours-MIA-DIT\\MIA2\\Projet_Big_Data\\bookshop_project\\dbt_bookshop', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\ndiaga.beye\\Desktop\\Cours-MIA-DIT\\MIA2\\Projet_Big_Data\\bookshop_project\\dbt_bookshop\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:20:38.035916 [info ] [MainThread]: dbt version: 1.9.3
+[0m20:20:38.038449 [info ] [MainThread]: python version: 3.11.9
+[0m20:20:38.039451 [info ] [MainThread]: python path: C:\Users\ndiaga.beye\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+[0m20:20:38.041536 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m20:20:38.053095 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'ACCOUNT'
+[0m20:20:38.058651 [debug] [MainThread]: Command `dbt debug` failed at 20:20:38.058651 after 8.83 seconds
+[0m20:20:38.060646 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ECF8C0F910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ECF8C41450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ECF4D33C90>]}
+[0m20:20:38.062653 [debug] [MainThread]: Flushing usage events
+[0m20:20:39.044472 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:17:52.193760 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000277240B3610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027724195D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027724195E50>]}
+
+
+============================== 22:17:52.232338 | d23ed5b9-7918-478b-9cdc-588b9a4b9893 ==============================
+[0m22:17:52.232338 [info ] [MainThread]: Running with dbt=1.9.3
+[0m22:17:52.234857 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\ndiaga.beye\\Desktop\\Cours-MIA-DIT\\MIA2\\Projet_Big_Data\\bookshop_project\\dbt_bookshop\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\ndiaga.beye\\Desktop\\Cours-MIA-DIT\\MIA2\\Projet_Big_Data\\bookshop_project\\dbt_bookshop', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init bookshop', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:17:52.283676 [info ] [MainThread]: Setting up your profile.
+[0m22:20:16.845464 [info ] [MainThread]: Profile bookshop written to C:\Users\ndiaga.beye\Desktop\Cours-MIA-DIT\MIA2\Projet_Big_Data\bookshop_project\dbt_bookshop\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:20:16.848851 [debug] [MainThread]: Command `dbt init` succeeded at 22:20:16.847849 after 144.81 seconds
+[0m22:20:16.849850 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002771BF9D4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002772437DB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027724373C10>]}
+[0m22:20:16.852161 [debug] [MainThread]: Flushing usage events
+[0m22:20:17.969857 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:20:41.603364 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155E1A7E6D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155E1895E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155E1AC9F10>]}
+
+
+============================== 22:20:41.608050 | 10501f7b-0820-48c4-bc5c-99163ae04a3e ==============================
+[0m22:20:41.608050 [info ] [MainThread]: Running with dbt=1.9.3
+[0m22:20:41.609976 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ndiaga.beye\\Desktop\\Cours-MIA-DIT\\MIA2\\Projet_Big_Data\\bookshop_project\\dbt_bookshop', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\ndiaga.beye\\Desktop\\Cours-MIA-DIT\\MIA2\\Projet_Big_Data\\bookshop_project\\dbt_bookshop\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:20:41.634668 [info ] [MainThread]: dbt version: 1.9.3
+[0m22:20:41.636839 [info ] [MainThread]: python version: 3.11.9
+[0m22:20:41.637863 [info ] [MainThread]: python path: C:\Users\ndiaga.beye\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+[0m22:20:41.638851 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m22:20:42.671888 [info ] [MainThread]: Using profiles dir at C:\Users\ndiaga.beye\Desktop\Cours-MIA-DIT\MIA2\Projet_Big_Data\bookshop_project\dbt_bookshop
+[0m22:20:42.671888 [info ] [MainThread]: Using profiles.yml file at C:\Users\ndiaga.beye\Desktop\Cours-MIA-DIT\MIA2\Projet_Big_Data\bookshop_project\dbt_bookshop\profiles.yml
+[0m22:20:42.673397 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\ndiaga.beye\Desktop\Cours-MIA-DIT\MIA2\Projet_Big_Data\bookshop_project\dbt_bookshop\dbt_project.yml
+[0m22:20:42.683305 [info ] [MainThread]: adapter type: snowflake
+[0m22:20:42.684361 [info ] [MainThread]: adapter version: 1.9.2
+[0m22:20:42.689512 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `source-paths` config has been renamed to `model-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m22:20:42.691588 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '10501f7b-0820-48c4-bc5c-99163ae04a3e', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155F2525690>]}
+[0m22:20:42.854432 [info ] [MainThread]: Configuration:
+[0m22:20:42.855481 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:20:42.856479 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m22:20:42.857759 [info ] [MainThread]: Required dependencies:
+[0m22:20:42.858767 [debug] [MainThread]: Executing "git --help"
+[0m22:21:03.971331 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:21:03.973388 [debug] [MainThread]: STDERR: "b''"
+[0m22:21:03.975873 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:21:03.977925 [info ] [MainThread]: Connection:
+[0m22:21:03.979219 [info ] [MainThread]:   account: 1
+[0m22:21:03.980880 [info ] [MainThread]:   user: BEYENDIAGA
+[0m22:21:03.982643 [info ] [MainThread]:   database: BOOKSHOP
+[0m22:21:03.984182 [info ] [MainThread]:   warehouse: DBT_WH
+[0m22:21:03.985875 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m22:21:03.987784 [info ] [MainThread]:   schema: MARTS
+[0m22:21:03.989495 [info ] [MainThread]:   authenticator: None
+[0m22:21:03.991157 [info ] [MainThread]:   oauth_client_id: None
+[0m22:21:03.992201 [info ] [MainThread]:   query_tag: None
+[0m22:21:03.993503 [info ] [MainThread]:   client_session_keep_alive: False
+[0m22:21:03.999535 [info ] [MainThread]:   host: None
+[0m22:21:04.004607 [info ] [MainThread]:   port: None
+[0m22:21:04.006616 [info ] [MainThread]:   proxy_host: None
+[0m22:21:04.008911 [info ] [MainThread]:   proxy_port: None
+[0m22:21:04.011430 [info ] [MainThread]:   protocol: None
+[0m22:21:04.014666 [info ] [MainThread]:   connect_retries: 1
+[0m22:21:04.018174 [info ] [MainThread]:   connect_timeout: None
+[0m22:21:04.020193 [info ] [MainThread]:   retry_on_database_errors: False
+[0m22:21:04.022192 [info ] [MainThread]:   retry_all: False
+[0m22:21:04.023707 [info ] [MainThread]:   insecure_mode: False
+[0m22:21:04.025727 [info ] [MainThread]:   reuse_connections: True
+[0m22:21:04.030285 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m22:21:05.289205 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m22:21:15.078831 [debug] [MainThread]: Using snowflake connection "debug"
+[0m22:21:15.080934 [debug] [MainThread]: On debug: select 1 as id
+[0m22:21:15.082084 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:21:17.904655 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m22:21:17.905662 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m22:21:17.907659 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m22:21:17.908656 [info ] [MainThread]: [31m1 check failed:[0m
+[0m22:21:17.909929 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250003 (08001): 404 Not Found: post https://1.snowflakecomputing.com:443/session/v1/login-request?request_id=255fb83e-5c4a-44d9-ba1d-4dfa344546d3&databaseName=BOOKSHOP&schemaName=MARTS&warehouse=DBT_WH&roleName=ACCOUNTADMIN&request_guid=f54366ae-e66b-42e8-b927-d222d6909166
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m22:21:17.913438 [debug] [MainThread]: Command `dbt debug` failed at 22:21:17.913438 after 36.43 seconds
+[0m22:21:17.915968 [debug] [MainThread]: Connection 'debug' was left open.
+[0m22:21:17.916980 [debug] [MainThread]: On debug: No close available on handle
+[0m22:21:17.918981 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155DBCBB090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155DBCBB050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000155E1AD8750>]}
+[0m22:21:17.919982 [debug] [MainThread]: Flushing usage events
+[0m22:21:18.920486 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:22:21.931989 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002300487EB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230048CA150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230048CA050>]}
+
+
+============================== 22:22:21.940036 | b6399f7a-7830-4e53-a81b-2484632aee6f ==============================
+[0m22:22:21.940036 [info ] [MainThread]: Running with dbt=1.9.3
+[0m22:22:21.941549 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ndiaga.beye\\Desktop\\Cours-MIA-DIT\\MIA2\\Projet_Big_Data\\bookshop_project\\dbt_bookshop', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\ndiaga.beye\\Desktop\\Cours-MIA-DIT\\MIA2\\Projet_Big_Data\\bookshop_project\\dbt_bookshop\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt init bookshop', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:22:21.971921 [info ] [MainThread]: Setting up your profile.
+[0m22:24:18.749431 [info ] [MainThread]: Profile bookshop written to C:\Users\ndiaga.beye\Desktop\Cours-MIA-DIT\MIA2\Projet_Big_Data\bookshop_project\dbt_bookshop\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:24:18.752939 [debug] [MainThread]: Command `dbt init` succeeded at 22:24:18.752939 after 117.03 seconds
+[0m22:24:18.753949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022FFE82D4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230048ED150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230048EF8D0>]}
+[0m22:24:18.756290 [debug] [MainThread]: Flushing usage events
+[0m22:24:19.734968 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:24:46.781076 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001548DD4E650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000154926EE190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015492682B50>]}
+
+
+============================== 22:24:46.787399 | f950e0b0-bc6f-438d-bfad-10b4941ee4df ==============================
+[0m22:24:46.787399 [info ] [MainThread]: Running with dbt=1.9.3
+[0m22:24:46.788910 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ndiaga.beye\\Desktop\\Cours-MIA-DIT\\MIA2\\Projet_Big_Data\\bookshop_project\\dbt_bookshop', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\ndiaga.beye\\Desktop\\Cours-MIA-DIT\\MIA2\\Projet_Big_Data\\bookshop_project\\dbt_bookshop\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m22:24:46.820869 [info ] [MainThread]: dbt version: 1.9.3
+[0m22:24:46.823387 [info ] [MainThread]: python version: 3.11.9
+[0m22:24:46.824405 [info ] [MainThread]: python path: C:\Users\ndiaga.beye\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+[0m22:24:46.825997 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m22:24:48.165735 [info ] [MainThread]: Using profiles dir at C:\Users\ndiaga.beye\Desktop\Cours-MIA-DIT\MIA2\Projet_Big_Data\bookshop_project\dbt_bookshop
+[0m22:24:48.166739 [info ] [MainThread]: Using profiles.yml file at C:\Users\ndiaga.beye\Desktop\Cours-MIA-DIT\MIA2\Projet_Big_Data\bookshop_project\dbt_bookshop\profiles.yml
+[0m22:24:48.167898 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\ndiaga.beye\Desktop\Cours-MIA-DIT\MIA2\Projet_Big_Data\bookshop_project\dbt_bookshop\dbt_project.yml
+[0m22:24:48.170432 [info ] [MainThread]: adapter type: snowflake
+[0m22:24:48.171580 [info ] [MainThread]: adapter version: 1.9.2
+[0m22:24:48.177731 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `source-paths` config has been renamed to `model-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m22:24:48.179741 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'f950e0b0-bc6f-438d-bfad-10b4941ee4df', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000154A0F23090>]}
+[0m22:24:48.391256 [info ] [MainThread]: Configuration:
+[0m22:24:48.393471 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:24:48.395521 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m22:24:48.396517 [info ] [MainThread]: Required dependencies:
+[0m22:24:48.397519 [debug] [MainThread]: Executing "git --help"
+[0m22:25:09.566907 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:25:09.568087 [debug] [MainThread]: STDERR: "b''"
+[0m22:25:09.570604 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:25:09.573124 [info ] [MainThread]: Connection:
+[0m22:25:09.574893 [info ] [MainThread]:   account: NGHPVGL-HH14778
+[0m22:25:09.577482 [info ] [MainThread]:   user: BEYENDIAGA
+[0m22:25:09.581065 [info ] [MainThread]:   database: BOOKSHOP
+[0m22:25:09.585599 [info ] [MainThread]:   warehouse: DBT_WH
+[0m22:25:09.588928 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m22:25:09.591652 [info ] [MainThread]:   schema: MARTS
+[0m22:25:09.594197 [info ] [MainThread]:   authenticator: None
+[0m22:25:09.597398 [info ] [MainThread]:   oauth_client_id: None
+[0m22:25:09.601457 [info ] [MainThread]:   query_tag: None
+[0m22:25:09.606677 [info ] [MainThread]:   client_session_keep_alive: False
+[0m22:25:09.609889 [info ] [MainThread]:   host: None
+[0m22:25:09.614490 [info ] [MainThread]:   port: None
+[0m22:25:09.617835 [info ] [MainThread]:   proxy_host: None
+[0m22:25:09.625464 [info ] [MainThread]:   proxy_port: None
+[0m22:25:09.628290 [info ] [MainThread]:   protocol: None
+[0m22:25:09.634902 [info ] [MainThread]:   connect_retries: 1
+[0m22:25:09.640079 [info ] [MainThread]:   connect_timeout: None
+[0m22:25:09.648670 [info ] [MainThread]:   retry_on_database_errors: False
+[0m22:25:09.652171 [info ] [MainThread]:   retry_all: False
+[0m22:25:09.654729 [info ] [MainThread]:   insecure_mode: False
+[0m22:25:09.659393 [info ] [MainThread]:   reuse_connections: True
+[0m22:25:09.668179 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m22:25:11.051477 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m22:25:11.168743 [debug] [MainThread]: Using snowflake connection "debug"
+[0m22:25:11.169782 [debug] [MainThread]: On debug: select 1 as id
+[0m22:25:11.169782 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:25:14.000763 [debug] [MainThread]: SQL status: SUCCESS 1 in 2.830 seconds
+[0m22:25:14.002825 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m22:25:14.005505 [info ] [MainThread]: [32mAll checks passed![0m
+[0m22:25:14.008691 [debug] [MainThread]: Command `dbt debug` succeeded at 22:25:14.008691 after 27.37 seconds
+[0m22:25:14.009723 [debug] [MainThread]: Connection 'debug' was left open.
+[0m22:25:14.010723 [debug] [MainThread]: On debug: Close
+[0m22:25:14.310017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015492673890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000154A0E696D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001548C88B050>]}
+[0m22:25:14.311013 [debug] [MainThread]: Flushing usage events
+[0m22:25:15.073067 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:26:31.551053 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A7F187EE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A7F13D6910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A7F1696510>]}
+
+
+============================== 22:26:31.557968 | 003196e7-dbde-43d9-aa08-9d21ff8146e2 ==============================
+[0m22:26:31.557968 [info ] [MainThread]: Running with dbt=1.9.3
+[0m22:26:31.559041 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\ndiaga.beye\\Desktop\\Cours-MIA-DIT\\MIA2\\Projet_Big_Data\\bookshop_project\\dbt_bookshop', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\ndiaga.beye\\Desktop\\Cours-MIA-DIT\\MIA2\\Projet_Big_Data\\bookshop_project\\dbt_bookshop\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run --models staging.*', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:26:32.888197 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `source-paths` config has been renamed to `model-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m22:26:32.889238 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '003196e7-dbde-43d9-aa08-9d21ff8146e2', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A7F187E590>]}
+[0m22:26:33.411301 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '003196e7-dbde-43d9-aa08-9d21ff8146e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A7824E9C50>]}
+[0m22:26:33.531987 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '003196e7-dbde-43d9-aa08-9d21ff8146e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A7EFD1D5D0>]}
+[0m22:26:33.533497 [info ] [MainThread]: Registered adapter: snowflake=1.9.2
+[0m22:26:34.610750 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m22:26:34.613761 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m22:26:34.616117 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '003196e7-dbde-43d9-aa08-9d21ff8146e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A782822B50>]}
+[0m22:26:57.517785 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.dbt_bookshop.books' (models\raw\books.sql) depends on a source named 'bookshop.books' which was not found
+[0m22:26:57.519994 [debug] [MainThread]: Command `dbt run` failed at 22:26:57.519994 after 26.15 seconds
+[0m22:26:57.521061 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A7F18ED950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A7EBA42CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A7F1696510>]}
+[0m22:26:57.521596 [debug] [MainThread]: Flushing usage events
+[0m22:26:58.453396 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:28:25.076931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F89C6EEBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F89C67E090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F89C6EF010>]}
+
+
+============================== 22:28:25.086270 | e7f92f50-4fc5-4cbd-a1b3-d34254a4dc9e ==============================
+[0m22:28:25.086270 [info ] [MainThread]: Running with dbt=1.9.3
+[0m22:28:25.090071 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\ndiaga.beye\\Desktop\\Cours-MIA-DIT\\MIA2\\Projet_Big_Data\\bookshop_project\\dbt_bookshop\\logs', 'profiles_dir': 'C:\\Users\\ndiaga.beye\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run --models staging.*', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:28:25.096039 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'bookshop'
+[0m22:28:25.098733 [debug] [MainThread]: Command `dbt run` failed at 22:28:25.098191 after 0.17 seconds
+[0m22:28:25.100350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8969871D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F89C67CC90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F89C67DB50>]}
+[0m22:28:25.101433 [debug] [MainThread]: Flushing usage events
+[0m22:28:26.063286 [debug] [MainThread]: An error was encountered while trying to flush usage events

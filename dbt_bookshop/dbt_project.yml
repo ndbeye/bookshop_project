@@ -1,0 +1,5 @@
+name: 'dbt_bookshop'
+version: '1.0'
+profile: 'bookshop'
+source-paths: ["models"]
+target-path: "target"

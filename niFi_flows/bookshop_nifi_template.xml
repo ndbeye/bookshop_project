@@ -1,0 +1,3 @@
+QueryDatabaseTableRecord (PostgreSQL)
+→ ConvertRecord (JSON)
+→ PutDatabaseRecord (Snowflake)

@@ -1,0 +1,7 @@
+streamlit
+snowflake-connector-python
+pandas
+matplotlib
+apache-airflow==2.8.1
+cosmos[dbt-snowflake]
+dbt-snowflake

@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: bookshop
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5433:5433"
+
+  nifi:
+    image: apache/nifi:1.24.0
+    container_name: nifi
+    ports:
+      - "8081:8080"  # Interface Nifi
+    environment:
+      NIFI_WEB_HTTP_PORT: 8080
+    volumes:
+      - ./nifi/config:/opt/nifi/nifi-current/conf
+
+  dbt:
+    image: ghcr.io/dbt-labs/dbt-snowflake:1.9.0
+    container_name: dbt
+    working_dir: /usr/app
+    volumes:
+      - ./dbt:/usr/app
+    depends_on:
+      - postgres
+    command: tail -f /dev/null
+
+  astro:
+    image: quay.io/astronomer/astro-runtime:9.2.0
+    container_name: astro
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    volumes:
+      - ./astro:/usr/local/airflow
+    ports:
+      - "8080:8080"  # Interface web d'Astro
+    command: webserver
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data:

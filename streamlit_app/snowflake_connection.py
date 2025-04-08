@@ -1,0 +1,1 @@
+# Placeholder pour une future séparation de la connexion Snowflake

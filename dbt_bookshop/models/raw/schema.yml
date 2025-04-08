@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: obt_sales
+    columns:
+      - name: customer_id
+        tests:
+          - relationships:
+              to: ref('dim_customers')
+              field: customer_id
+              severity: error
+
+      - name: total_amount
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['> 0']
